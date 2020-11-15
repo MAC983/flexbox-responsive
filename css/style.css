@@ -1,5 +1,3 @@
-/* Aqui ira nuestro código css */
-
 * {
   margin: 0;
   padding: 0;
@@ -11,8 +9,7 @@
   width: 90%;
   max-width: 1000px;
   margin: auto;
-
-  /* flex */
+  /*flex*/
   display: flex;
   /* flex-direction: row;
   flex-wrap: wrap; */
@@ -24,7 +21,7 @@ body{
 }
 
 header{
-  background-color: #2c3e50;
+  background-color: #3682ce;
   width: 100%;
   padding: 20px;
   /* flex */
@@ -34,7 +31,7 @@ header{
   flex-wrap: wrap;
 }
 
-header .logo figure img{
+header .logo figure img {
   width: 50px;
   vertical-align: top;
 }
@@ -54,24 +51,25 @@ header nav {
   align-items: center;
 }
 
-header nav a{
-  background-color: #c0392b;
+header nav a {
+  background-color: #aa2213;
   color: #fff;
   text-align: center;
   text-decoration: none;
   padding: 10px;
+  /* flex */
   flex-grow: 1;
 }
 
-header nav a:hover, footer .links a:hover{
-  background-color: #e74c3c;
+header nav a:hover, footer .links {
+  background-color: #be493c;
 }
 
-.sections{
-  background-color: #fff;
+.sections {
+  background-color: #fff ;
   padding: 20px;
   /* flex */
-  /* flex-grow: 1;
+    /* flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 70%; */
   flex: 1 1 70%;
@@ -83,15 +81,15 @@ header nav a:hover, footer .links a:hover{
   border-bottom: 1px solid black;
 }
 
-.sections article:nth-last-child(1){
+.sections article:nth-last-child(){
   margin-bottom: 0;
   padding-bottom: 0;
   border-bottom: none;
 }
 
-/* main{
+main {
   background-color: #fff;
-} */
+} 
 
 aside{
   background-color: #e67e22;
@@ -101,7 +99,7 @@ aside{
   flex-wrap: wrap;
   justify-content: center;
   flex-direction: column;
-  flex: 1 0 30%;
+  flex: 1 1 30%;
 }
 
 aside .widget {
@@ -110,24 +108,23 @@ aside .widget {
   margin: 10px;
 }
 
-footer{
-  background-color: #2c3e50;
+footer {
+  background-color: #030303;
   width: 100%;
   padding: 20px;
   /* flex */
-
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-footer .links{
-  background-color: #c0392b;
+footer .links {
+  background-color:#a11708;
   display: flex;
   flex-wrap: wrap;
 }
 
-footer .links a{
+footer .links a {
   flex-grow: 1;
   padding: 10px;
   color: #fff;
@@ -135,18 +132,22 @@ footer .links a{
   text-decoration: none;
 }
 
-footer .social{
+footer .social {
   background-color: #e67e22;
   text-align: center;
 }
 
-footer .social a{
+footer .social a {
   color: #fff;
   text-decoration: none;
   padding: 10px;
   display: inline-block;
 }
 
-footer .social a:hover{
+footer .social a:hover {
   background-color: #f09a4e;
+}
+
+footer .links a:hover {
+  background-color: #a0574f;
 }
